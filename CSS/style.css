@@ -7,6 +7,7 @@ body {
     padding-left: 30px;
     padding-right: 30px;
 }
+/* Css pour le header */
 .header {
     margin-top: 40px;
 }
@@ -34,6 +35,7 @@ body {
     
 }
 
+/* Css pour le menu */
 .menu-container {
     margin-top: 60px;
 }
@@ -143,6 +145,9 @@ body {
     border-radius: 50%;
     font-size: 10px;
 }
+
+/* Css pour le contenu du résultat de recherche */
+
 .content-wrapper {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -224,6 +229,9 @@ body {
 .card-note > .fa-star:last-of-type {
     color: #F2F2F2;
 }
+
+/* Css pour le contenu des card suggérées */
+
 .content-suggest {
     grid-column: 4/5;
     height: 400px;
@@ -293,6 +301,9 @@ body {
 .card-suggest-note > .fa-star:last-of-type {
     color: #F2F2F2;
 }
+
+/* Css pour le contneu des cards activités */
+
 .act-wrapper {
     display: flex;
     justify-content: space-between;
@@ -328,6 +339,8 @@ body {
     cursor: pointer;
 }
 
+/* Css pour le footer */
+
 .footer {
     height: 225px;
     display: flex;
@@ -355,3 +368,5 @@ body {
     color: black;
     cursor: pointer;
 }
+
+/* Css pour les mediaquerries */
