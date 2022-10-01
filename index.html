@@ -14,8 +14,8 @@
                     <a href="#"><img src="./images/Logo.png" alt="Booki-logo" class="page-title"></a>
                 </div>
                 <div class="nav-container">
-                    <a href="#" class="nav-item nav-item-active">Hébergements</a>
-                    <a href="#" class="nav-item">Activités</a>
+                    <a href="#" class="nav-item" id="nav-item-1">Hébergements</a>
+                    <a href="#" class="nav-item" id="nav-item-2">Activités</a>
                 </div>
             </nav>
         </header>
@@ -30,18 +30,18 @@
                     <span class="map-icon"><i class="fa-solid fa-location-dot"></i></span>
                     <form>
                         <input type="text" class="search-input" value="Marseille, France">
-                        <button class="search-button">Rechercher</button>
+                        <button class="search-button"><span>Rechercher</span><i class="fa-solid fa-magnifying-glass"></i></button>
                     </form>
                 </div>
                 <div class="filter-container">
                     <span class="filter-title">Filtres</span>
-                    <span class="filter-item"><i class="fa-solid fa-money-bill-wave"></i>Économique</span>
-                    <span class="filter-item"><i class="fa-solid fa-person"></i>Familial</span>
-                    <span class="filter-item"><i class="fa-solid fa-heart"></i>Romantique</span>
-                    <span class="filter-item"><i class="fa-solid fa-dog"></i>Animaux autorisés</span>
+                    <span class="filter-item" id="filter-1"><i class="fa-solid fa-money-bill-wave"></i><span>Économique</span></span>
+                    <span class="filter-item" id="filter-2"><i class="fa-solid fa-person"></i><span>Familial</span></span>
+                    <span class="filter-item" id="filter-3"><i class="fa-solid fa-heart"></i><span>Romantique</span></span>
+                    <span class="filter-item" id="filter-4"><i class="fa-solid fa-dog"></i><span>Animaux autorisés</span></span>
                 </div>
                 <div class="info-container">
-                    <span class="info"><i class="fa-solid fa-info"></i>Plus de 500 logements sont disponibles dans cette ville</span>
+                    <span class="info"><i class="fa-solid fa-info"></i><span>Plus de 500 logements sont disponibles dans cette ville</span></span>
                 </div>
             </section>
 
@@ -174,7 +174,7 @@
                 </article>
             </div>
 
-            <div>
+            <div class="act-wrapper">
                 <article>
                     <h2>Activités à Marseille</h2>
                     <div class="act-wrapper">

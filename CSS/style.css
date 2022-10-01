@@ -58,6 +58,9 @@ body {
     align-items: center;
     margin-bottom: 40px;
 }
+.fa-magnifying-glass {
+    display: none;
+}
 .map-icon {
     width: 50px;
     height: 50px;
@@ -440,5 +443,182 @@ body {
     .footer-item {
         left: -50px;
         margin-top: 30px;
+    }
+}
+@media screen and (max-width: 768px) {
+    body {
+        padding: 0px;
+    }
+    .header {
+        margin-top: 21px;
+    }
+    .nav {
+        flex-direction: column;
+    }
+    .nav > div {
+        text-align: center;
+    }
+    .nav-item {     
+        border-bottom: #D9D9D9 solid 2px;
+        width: 188px;
+    }
+    #nav-item-1 {
+        padding: 0px 38px 12px 38px;
+    }
+    #nav-item-2 {
+        padding: 0px 62px 12px 62px;
+    }
+    .nav-item:hover {
+        color: #0065FC;
+        border-bottom: 2px #0065FC solid;
+        border-top: none;
+        
+    }
+    .nav-container {
+        margin-top: 55px;
+        width: 100vw;
+    }
+    main {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .menu-container {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 375px;
+        margin-top: 30px;
+    }
+    .menu-title-container {
+        margin-left: 20px;
+        margin-bottom: 40px;
+    }
+    .menu-title-container > h2 {
+        width: 298px;
+    }
+    .filter-container {
+        display: grid;
+        grid-template-columns: 174px 1fr;
+        grid-template-rows: auto;
+        margin-left: 20px;
+        row-gap: 15px;
+        margin-bottom: 30px;
+    }
+    .filter-title {
+        grid-row: 1;
+        grid-column: 1/2;
+    }
+    #filter-1 {
+        grid-row: 2;
+        grid-column: 1/2;
+    }
+    #filter-2 {
+        grid-row: 2;
+        grid-column: 2/3;
+    }
+    #filter-3 {
+        grid-row: 3;
+        grid-column: 1/2;
+    }
+    #filter-4 {
+        grid-row: 3;
+        grid-column: 2/3;
+    }
+    .filter-item {
+        width: 140px;
+        display: flex;
+        justify-content: flex-start;
+        margin-right: 0px;
+        padding: 0px 0px 0px 12px;
+    }
+    .filter-item > span {
+        font-size: 11px;
+    }
+    .search-container {
+        margin-left: 22px;
+    }
+    .search-button > span {
+        display: none;
+    }
+    .fa-magnifying-glass {
+        display: block;
+        font-size: 16px;
+    }
+    .info-container {
+        margin-left: 20px;
+    }
+    .info > span {
+        position: relative;
+        top: 10px;
+    }
+    .content-wrapper {
+        flex-direction: column-reverse;
+        height: fit-content;
+    }
+    .content-result {
+        width: 100vw;
+        background-color: white;
+    }
+    .content-result-title {
+        text-align: center;
+        font-size: 22px;
+        width: 100vw;
+        position: relative;
+        left: -20px;
+    }
+    .card-row {
+        flex-direction: column;
+    }
+    .content-result-wrapper {
+        width: 100vw;
+    }
+    .content-suggest {
+        width: 100vw;
+        border-radius: 0px;
+        height: 580px;
+    }
+    .suggest-card-wrapper {
+        flex-direction: column;
+        width: 100vw;
+        height: auto;
+    }
+    #suggest-img-1 {
+        content: url("../images/mobil/pop/card1.png");
+    }
+    #suggest-img-2 {
+        content: url("../images/mobil/pop/card2.png");
+    }
+    #suggest-img-3 {
+        content: url("../images/mobil/pop/card3.png");
+    }
+    .card-suggest {
+        width: 334px;
+        margin-bottom: 11px;
+    }
+    .content-suggest-title {
+        justify-content: center;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+    .content-suggest-title > h2 {
+        margin-right: 110px;
+    }
+    .card-suggest-desc-title {
+        font-size: 16px;
+    }
+    .card-suggest-desc-sub > a > span {
+        font-size: 14px;
+    }
+    .act-wrapper {
+        width: 375px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .footer {
+        width: 360px;
     }
 }
