@@ -477,6 +477,9 @@ body {
         
     }
     .nav-container {
+        display: flex;
+        max-width: 375px;
+        margin: auto;
         margin-top: 55px;
         width: 100vw;
     }
